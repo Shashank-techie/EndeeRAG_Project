@@ -1,0 +1,8 @@
+requests
+msgpack
+sentence-transformers
+pypdf
+transformers
+fastapi
+google-genai
+uvicorn

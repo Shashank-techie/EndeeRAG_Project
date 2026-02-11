@@ -166,10 +166,3 @@ Run the test suite:
 python -m pytest tests/
 ```
 
-## License
-
-[Add license information here]
-
-## Contributing
-
-[Add contribution guidelines here]

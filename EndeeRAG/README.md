@@ -65,6 +65,11 @@ python -c "from app.query import RAGQueryEngine; engine = RAGQueryEngine(); prin
 ### 4. Document Ingestion
 
 Add documents to the vector store:
+```bash
+python ingest_docs.py
+```
+
+Or programmatically:
 ```python
 from app.ingest import prepare_chunks
 from app.embed import generate_embeddings
@@ -98,7 +103,9 @@ EndeeRAG/
 ├── demo_queries.py     # Demo script
 ├── endee_index/        # Endee index storage
 ├── endee_texts.json    # Persisted text mappings
+├── ingest_docs.py      # Document ingestion script
 ├── logs/               # Application logs
+├── query_terminal.py   # Terminal query interface
 ├── requirements.txt    # Python dependencies
 ├── scripts/            # Utility scripts
 ├── test_vector_store.py # Vector store tests
@@ -118,6 +125,10 @@ The system comes with sample FAQ data including:
 - Refund policy information
 - Password reset procedures
 - Employee onboarding process
+- Payment methods
+- Warranty information
+- Shipping and returns
+- Customer support contact
 
 ## Troubleshooting
 

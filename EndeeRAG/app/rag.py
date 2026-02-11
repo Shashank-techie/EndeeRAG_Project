@@ -19,9 +19,5 @@ def generate_answer(query):
     Answer:
     """
 
-    response = client.models.generate_content(
-        model='gemini-1.5-flash',
-        contents=prompt
-    )
-
-    return response.text
+    # Mock response for testing purposes
+    return f"Mock answer: Based on the context, the answer to '{query}' is derived from retrieved information."

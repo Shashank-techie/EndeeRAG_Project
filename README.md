@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Endee: High-Performance Open Source Vector Database
 
 **Endee (nD)** is a specialized, high-performance vector database built for speed and efficiency. This guide covers supported platforms, dependency requirements, and detailed build instructions using both our automated installer and manual CMake configuration.
@@ -383,3 +384,6 @@ licensed under their respective open source licenses.
 
 Use of those components is governed by the terms and conditions of their
 individual licenses, not by the Apache License 2.0 for this project.
+=======
+# EndeeRAG_Project
+>>>>>>> 093d8ddfb7009ae1246a07cfbfc6c8cb94db52be
